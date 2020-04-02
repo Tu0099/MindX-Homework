@@ -49,6 +49,36 @@ if (username === input && password === input2){
 
 // bài 4
 
+const name = prompt("tên của bạn");
+const input = Number(prompt("tháng sinh của bạn"));
+
+switch(input){
+case 1:
+case 2:
+case 3:
+    console.log(`${name} sinh vào mùa xuân`);
+    break;
+case 4:
+case 5:
+case 6:
+    console.log(`${name} sinh vào mùa hạ`);
+    break;
+case 7:
+case 8:
+case 9:
+    console.log(`${name} sinh vào mùa thu`);
+    break;
+case 10:
+case 11:
+case 12:
+    console.log(`${name} sinh vào mùa đông`);
+    break;
+
+default:
+    console.log("tháng sinh không hợp lệ");                                                
+}
+
+
 
 // bài 5
 
@@ -73,5 +103,3 @@ if(Z < 0){
 
 }
 
-
-//bài 6
